@@ -53,4 +53,4 @@ Some advices.
 
 With love from Sigmoid.
 
-We are open for feedback. Please send your impression to vpapaluta06@gmail.com
+We are open for feedback. Please send your impression to papaluta.vasile@isa.utm.md
