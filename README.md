@@ -23,13 +23,17 @@ All these methods takes the pandas Data Frame and y column to select from remain
 How to use kydavra\
 To use selector from kydavra you should just import the selector from kydavra in the following framework:\
 ```python
-from kydavra import <class name>
+from kydavra import ANOVASelector
 ```
 class names are written above in parantheses.\
 Next create a object of this algorithm (I will use p-value method as an example).\
-```method = PValueSelector()```\
+```python
+method = PValueSelector()
+```
 To get the best feature on the opinion of the method you should use the 'select' function, using as parameters the pandas Data Frame and the column that you want your model to predict.\
-```selected_columns = method.select(df, 'target')```\
+```
+selected_columns = method.select(df, 'target')
+```
 Returned value is a list of columns selected by the algorithm.
 
 Some methods could plot the process of selecting the best features.\
