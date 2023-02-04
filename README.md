@@ -39,17 +39,27 @@ Returned value is a list of columns selected by the algorithm.
 Some methods could plot the process of selecting the best features.\
 In these methods dotted are features that wasn't selected by the method.\
 *ChiSquaredSelector*\
-```method.plot_chi2()```\
+```python
+method.plot_chi2()
+```
 For ploting and\
-```method.plot_chi2(save=True, file_path='FILE/PATH.png')```\
+```python
+method.plot_chi2(save=True, file_path='FILE/PATH.png')
+```
 and\
-```method.plot_p_value()```\
+```python
+method.plot_p_value()
+```
 for ploting the p-values.\
 *LassoSelector*\
-```method.plot_process()```\
+```python
+method.plot_process()
+```
 also you can save the plot using the same parameters.\
 *PValueSelector*\
-```method.plot_process()```
+```
+method.plot_process()
+```
 
 Some advices.
 * Use ChiSquaredSelector for categorical features.
