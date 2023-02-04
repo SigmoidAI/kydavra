@@ -31,7 +31,7 @@ Next create a object of this algorithm (I will use p-value method as an example)
 method = PValueSelector()
 ```
 To get the best feature on the opinion of the method you should use the 'select' function, using as parameters the pandas Data Frame and the column that you want your model to predict.\
-```
+```python
 selected_columns = method.select(df, 'target')
 ```
 Returned value is a list of columns selected by the algorithm.
