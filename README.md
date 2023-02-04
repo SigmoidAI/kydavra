@@ -24,7 +24,7 @@ How to use kydavra\
 To use selector from kydavra you should just import the selector from kydavra in the following framework:\
 ```python
 from kydavra import <class name>
-```\
+```
 class names are written above in parantheses.\
 Next create a object of this algorithm (I will use p-value method as an example).\
 ```method = PValueSelector()```\
