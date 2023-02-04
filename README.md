@@ -69,4 +69,4 @@ Some advice.
 
 With love from Sigmoid.
 
-We are open for feedback. Please send your impression to papaluta.vasile@isa.utm.md
+We are open for feedback. Please send your impression to vladimir.stojoc@gmail.com
