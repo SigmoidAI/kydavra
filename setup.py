@@ -87,7 +87,7 @@ We are open for feedback. Please send your impression to vladimir.stojoc@gmail.c
 setup(
   name = 'kydavra',
   packages = ['kydavra'],
-  version = '0.3.3',
+  version = '0.3.4',
   license='MIT',
   description = 'Kydavra is a sci-kit learn inspired python library with feature selection methods for Data Science and Macine Learning Model development',
   long_description=long_description,
