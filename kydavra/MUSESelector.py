@@ -6,9 +6,8 @@ Created with love by Sigmoid
 # Importing all needed libraries
 import pandas as pd
 import math
+from .errors import NotBinaryData
 
-class NotBinaryData(BaseException):
-    pass
 
 class MUSESelector():
     def __init__(self, num_features : int = 5, n_bins : int = 20, p : float = 0.2, T : float = 0.1) -> None:

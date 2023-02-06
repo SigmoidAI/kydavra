@@ -7,10 +7,6 @@ Created with love by Sigmoid
 import pandas as pd
 from sklearn.decomposition import PCA
 
-def warn(*args, **kwargs):
-    pass
-import warnings
-warnings.warn = warn
 
 class PCAFilter():
     def __init__(self, n_components : int = None):

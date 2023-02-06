@@ -7,6 +7,8 @@ Created with love by Sigmoid
 import random
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
+
+
 class GeneticAlgorithmSelector:
     def __init__(self, nb_children : int = 4, nb_generation : int = 200, scoring_metric = accuracy_score, max : bool = True) -> None:
         '''

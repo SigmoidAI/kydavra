@@ -7,6 +7,8 @@ Created with love by Sigmoid
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.feature_selection import chi2
+
+
 class ChiSquaredSelector:
     def __init__(self, significance_level : float = 0.05) -> None:
         '''

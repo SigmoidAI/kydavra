@@ -7,6 +7,7 @@ Created with love by Sigmoid
 import numpy as np
 import math
 
+
 class ShannonSelector:
     def __init__(self, select_strategy : str = 'mean', nan_acceptance_level : float = 0.5) -> None:
         '''

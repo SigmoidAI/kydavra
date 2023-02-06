@@ -1,29 +1,40 @@
 # kydavra
 Kydavra is a python sci-kit learn inspired package for feature selection. It used some statistical methods to extract from pure pandas Data Frames the columns that are related to column that your model should predict.
 This version of kydavra has the next methods of feature selection:
-* ANOVA test selector (ANOVASelector).
-* Chi squared selector (ChiSquaredSelector).
-* Genetic Algorithm selector (GeneticAlgorithmSelector).
-* Kendall Correlation selector (KendallCorrelationSelector).
-* Lasso selector (LassoSelector).
-* Pearson Correlation selector (PearsonCorrelationSelector).
-* Point-Biserial selector (PointBiserialCorrSelector).
-* P-value selector (PValueSelector).
-* Spearman Correlation selector (SpermanCorrelationSelector).
-* Shannon selector (ShannonSelector).
-* ElasticNet Selector (ElasticNetSelector).
-* M3U Selector (M3USelector).
-* MUSE Selector (MUSESelector).
-* Mixer Selector (MixerSelector).
-* PCA Filter (PCAFilter).
-* PCA Reducer (PCAReducer).
-* LDA Reducer (LDAReducer).
+* ANOVA test selector (ANOVASelector)
+* Chi squared selector (ChiSquaredSelector)
+* Genetic Algorithm selector (GeneticAlgorithmSelector)
+* Kendall Correlation selector (KendallCorrelationSelector)
+* Lasso selector (LassoSelector)
+* Pearson Correlation selector (PearsonCorrelationSelector)
+* Point-Biserial selector (PointBiserialCorrSelector)
+* P-value selector (PValueSelector)
+* Spearman Correlation selector (SpermanCorrelationSelector)
+* Shannon selector (ShannonSelector)
+* ElasticNet Selector (ElasticNetSelector)
+* M3U Selector (M3USelector)
+* MUSE Selector (MUSESelector)
+* Mixer Selector (MixerSelector)
+* PCA Filter (PCAFilter)
+* PCA Reducer (PCAReducer)
+* LDA Reducer (LDAReducer)
+* Bregman Divergence selector (BregmanDivergenceSelector)
+* Fisher Selector (FisherSelector)
+* ICA Reducer (ICAReducer)
+* ICA Filter (ICAFilter)
+* Itakura-Saito Divergence selector (ItakuraSaitoSelector)
+* Jensen-Shannon Divergence selector (JensenShannonSelector)
+* Kullback-Leibler selector (KullbackLeiblerSelector)
+* MultiSURF selector (MultiSURFSelector)
+* Phik selector (PhikSelector)
+* ReliefF selector (ReliefFSelector)
+
 All these methods takes the pandas Data Frame and y column to select from remained columns in the Data Frame.
 
 How to use kydavra\
 To use selector from kydavra you should just import the selector from kydavra in the following framework:
 ```python
-from kydavra import ANOVASelector
+from kydavra import PValueSelector
 ```
 class names are written above in parantheses.\
 Next create a object of this algorithm (I will use p-value method as an example).

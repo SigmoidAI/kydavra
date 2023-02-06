@@ -15,3 +15,13 @@ from .MUSESelector import MUSESelector
 from .ElasticNet import ElasticNetSelector
 from .PCAReducer import PCAReducer
 from .PCAFilter import PCAFilter
+from .BregmanDivergenceSelector import BregmanDivergenceSelector
+from .FisherSelector import FisherSelector
+from .ICAReducer import ICAReducer
+from .ICAFilter import ICAFilter
+from .ItakuraSaitoSelector import ItakuraSaitoSelector
+from .JensenShannonSelector import JensenShannonSelector
+from .KullbackLeiblerSelector import KullbackLeiblerSelector
+from .MultiSURFSelector import MultiSURFSelector
+from .PhikSelector import PhikSelector
+from .ReliefFSelector import ReliefFSelector

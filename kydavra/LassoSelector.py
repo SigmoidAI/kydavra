@@ -7,10 +7,8 @@ Created with love by Sigmoid
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.linear_model import lasso_path, LassoCV
-def warn(*args, **kwargs):
-    pass
-import warnings
-warnings.warn = warn
+
+
 class LassoSelector:
     def __init__(self, alpha_start : float = 0, alpha_finish : float = 2, n_alphas : int = 300, extend_step : float = 20, power : int = 2) -> None:
         '''

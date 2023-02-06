@@ -9,10 +9,6 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import ElasticNetCV, enet_path
 import pandas as pd
 
-def warn(*args, **kwargs):
-    pass
-import warnings
-warnings.warn = warn
 
 class ElasticNetSelector():
     def __init__(self, alpha_start : float = -2, alpha_finish : float = 0, beta_start : float = -2, beta_finish : float = 0, n_alphas : int = 100, extend_step : int = 20,power : int = 2):

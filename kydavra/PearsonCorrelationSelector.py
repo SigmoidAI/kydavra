@@ -78,7 +78,7 @@ class PearsonCorrelationSelector:
             cols_to_remove = []
             for i in correlated_indexes:
                 for j in correlated_indexes:
-                    if abs(corr_matrix[i][j]) > self.max_corr and abs(corr_matrix[i][j]) < self.max_corr:
+                    if abs(corr_matrix[i][j]) > self.min_corr and abs(corr_matrix[i][j]) < self.max_corr:
                         cols_to_remove.append(self.X_columns[i])
             cols_to_remove = set(cols_to_remove)
 

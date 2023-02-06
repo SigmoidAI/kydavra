@@ -8,10 +8,6 @@ import pandas as pd
 from .errors import NotBetweenZeroAndOneError, NoSuchMethodError
 from sklearn.decomposition import PCA
 
-def warn(*args, **kwargs):
-    pass
-import warnings
-warnings.warn = warn
 
 class PCAReducer():
 

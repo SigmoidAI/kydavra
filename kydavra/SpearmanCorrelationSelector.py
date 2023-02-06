@@ -5,6 +5,8 @@ Created with love by Sigmoid
 '''
 # Importing all needed libraries
 from .errors import NotBetweenZeroAndOneError
+
+
 class SpearmanCorrelationSelector:
     def __init__(self, min_corr : float = 0.5, max_corr : float = 0.8, erase_corr : bool = False) -> None:
         '''

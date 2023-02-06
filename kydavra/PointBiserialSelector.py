@@ -8,6 +8,8 @@ import numpy as np
 import pandas as pd
 from math import sqrt
 from .errors import NotBetweenZeroAndOneError
+
+
 class PointBiserialCorrSelector:
     def __init__(self, min_corr : float = 0.5, max_corr : float = 0.8, last_level : int = 2) -> None:
         '''
